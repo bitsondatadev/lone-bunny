@@ -97,7 +97,7 @@ public final class StandaloneQueryRunner
 
         EmbeddedServer server = createServer(
                 Map.of("http-server.http.port", requireNonNullElse(System.getenv("TRINO_PORT"), "8080")),
-                Map.of("metadata-uri", requireNonNull(System.getenv("TRINO_GIT_URL"))));
+                Map.of("metadata-uri", requireNonNullElse(System.getenv("TRINO_URL"), "localhost")));
 
         Logger log = Logger.get(EmbeddedServer.class);
         log.info("======== SERVER STARTED ========");

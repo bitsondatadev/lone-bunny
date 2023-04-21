@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-26T11:32:59 UTC" name="Surefire suite" finished-at="2022-11-26T11:32:59 UTC" duration-ms="47">
+    <groups>
+    </groups>
+    <test started-at="2022-11-26T11:32:59 UTC" name="Surefire test" finished-at="2022-11-26T11:32:59 UTC" duration-ms="47">
+      <class name="io.trino.TestEmbeddedServer">
+        <test-method signature="dummyTestForSureFile()[pri:0, instance:io.trino.TestEmbeddedServer@61dd025]" started-at="2022-11-26T11:32:59 UTC" name="dummyTestForSureFile" finished-at="2022-11-26T11:32:59 UTC" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTestForSureFile -->
+      </class> <!-- io.trino.TestEmbeddedServer -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

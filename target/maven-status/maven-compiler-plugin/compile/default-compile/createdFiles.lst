@@ -1,0 +1,3 @@
+io/trino/EmbeddedServer$Builder.class
+io/trino/StandaloneQueryRunner.class
+io/trino/EmbeddedServer.class
